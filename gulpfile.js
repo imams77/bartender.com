@@ -1,4 +1,5 @@
 const elixir = require('laravel-elixir');
+elixir.config.sourcemaps = false;
 
 require('laravel-elixir-vue-2');
 
@@ -14,6 +15,9 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(mix => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+    mix.sass('main.sass','public/assets/css/main.css');
+    mix.sass('bootstrap.scss','public/assets/css/bootstrap.css');
+    mix.sass('font-awesome.scss','public/assets/css/font-awesome.css');
 });
+
+

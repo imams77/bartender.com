@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace GreenvilleGofur;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

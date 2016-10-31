@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace GreenvilleGofur\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

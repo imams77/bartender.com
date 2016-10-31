@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel',
+    'name' => 'Greenville Gofur',
 
     /*
     |--------------------------------------------------------------------------
@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        GreenvilleGofur\Providers\AppServiceProvider::class,
+        GreenvilleGofur\Providers\AuthServiceProvider::class,
+        // GreenvilleGofur\Providers\BroadcastServiceProvider::class,
+        GreenvilleGofur\Providers\EventServiceProvider::class,
+        GreenvilleGofur\Providers\RouteServiceProvider::class,
 
     ],
 

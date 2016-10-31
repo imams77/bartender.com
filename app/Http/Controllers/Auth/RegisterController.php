@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace GreenvilleGofur\Http\Controllers\Auth;
 
-use App\User;
+use GreenvilleGofur\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use GreenvilleGofur\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
